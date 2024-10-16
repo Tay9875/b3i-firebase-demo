@@ -1,0 +1,49 @@
+body{
+    font-family: 'Helvetica Neue';
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+}
+
+form{
+    border-radius: 30px;
+    padding: 30px;
+    background-color: #363735;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+form input, select{
+    padding: 10px;
+    width: 50%;
+    border-radius: 10px;
+    border:solid 2px white;
+    background-color: #363735;
+    color: white;
+}
+
+button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: white;;
+}
+
+table{
+    width: 100%;
+}
+
+th, td {
+    border-bottom: 1px solid;
+    padding: 5px;
+    text-align: left;
+}
+
+tr.red{
+    background-color: lightsalmon;
+}
+
+tr.green{
+    background-color: lightgreen;
+}
